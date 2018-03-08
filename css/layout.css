@@ -1,0 +1,92 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background-color: rgb(218, 140, 147);
+  }
+  
+  .item {
+      background-color:#0088ce;
+      color:pink;
+      margin:4em;
+      padding:3em;
+      font-size:120%;
+  }
+
+  .content-menu {
+    background-color:#0088ce;
+    color:pink;
+    margin:2em;
+    padding:1em;
+    font-size:50%;
+}
+
+
+.content {
+    background-color:#152b36;
+    color:rgb(236, 54, 139);
+    margin:auto;
+    padding:10em;
+    font-size:50%;
+}
+  
+  .item:hover {
+    background-color:yellow;
+    color:purple;
+  }
+  
+  .flex-side{
+      display: flex;
+      flex-direction: column;
+      width:100px;
+      height:500px;
+      align-content: left;
+      background-color: aquamarine;
+      margin-top: 1em;
+  }
+  
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    margin-top: 1em;
+      
+}
+
+  .hovertest {
+
+    transition: background-color .5s;
+  }
+  
+  .hovertest:hover {
+    background-color: rgb(0, 255, 76);
+  }
+
+  .vertical nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
