@@ -1,0 +1,7 @@
+/*Nav-BAR*/
+.navbar{
+    height:100px;
+    border: solid 1px black;
+    background-color:darkblue;
+    color:white;
+}
