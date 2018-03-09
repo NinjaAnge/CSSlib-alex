@@ -29,3 +29,15 @@ Utility
 .padding-10{
     padding: 10px;
 }
+
+
+/*HOVER EFFECTS*/
+
+.hovertest {
+
+    transition: background-color .5s;
+  }
+  
+  .hovertest:hover {
+    background-color:red;
+  }
